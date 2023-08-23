@@ -1,6 +1,6 @@
 # Döviz Kurusu
 
-> Bu projeyi döviz kuru uygulaması olarak yapmaya başladım fakat Türkiye'deki ekonomik krize dikkat çekmek adına video ile destekleyerek yaratıcı bir proje ortaya çıkarttık. Projenin tüm yasal hakları benimdir, arkadaşım benim ısrarımla projeye dahil olmuştur. Kendisine emeği için teşekkür ederim
+> Javascript, HTML, CSS ve JSON formatı kullanarak oluşturulan bu proje FreeCurrency API ile yapılmıştır. Günümüz ekonomisine dikkat çekmek için video eklenerek proje özgünleştirilmiştir. Bu projeyi yaparken bana yardımcı olan proje ortağım Seymen Ünlü Taşkıran'a teşekkür ederim. Projenin tüm yasal hakları benimdir, arkadaşım benim ısrarımla projeye dahil olmuştur.
 
 > Canlı Proje [_here_](https://community4community.vercel.app/).
 
@@ -18,6 +18,8 @@
 
 ## Genel Bilgi
 - Video destekli döviz kuru(su) projesi
+- Döviz Kurusu projesi Türkiye'deki ekonomik krize dikkat çekmek için oluşturulmuş bir döviz kuru projesidir. Sıradan bir döviz kuru projesi yapmak yerine 'mesaj içeren' bir proje yapmak istedik.
+- Döviz kurusu olarak adlandırma sebebimiz projede kullanılan içeriğe dikkat çekmektir.
 
 ## Kullanılan Teknolojiler
 - HTML
