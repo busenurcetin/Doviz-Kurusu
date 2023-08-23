@@ -1,0 +1,249 @@
+body{
+    background-image: url('./image/doviz.jpeg');
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgrey;
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(215, 215, 215);
+    margin-top: 160px;
+    border: 1px solid rgb(102, 102, 102);
+    background-image: url('./image/moneypic3.png');
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-wrapper > h4 {
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+input {
+    padding: 5px;
+    margin: 0px 10px;
+    width: 120px;
+}
+
+select {
+    padding: 5px;
+}
+
+span {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content-wrapper {
+    flex-direction: column;
+    align-items: center;
+}
+
+#amount{
+    border-radius: 10px;
+    border: 1px solid rgb(102, 102, 102);
+    width: 90px;
+    height: 34px;
+    font-weight: bold;
+}
+
+#result{
+    border-radius: 10px;
+    border: 1px solid rgb(102, 102, 102);
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+}
+
+#firstCurrencyOption{
+    border-radius: 10px;
+    border: 1px solid rgb(102, 102, 102);
+    width: 140px;
+    height: 46px;
+}
+
+#secondCurrencyOption{
+    border-radius: 10px;
+    border: 1px solid rgb(102, 102, 102);
+    width: 120px;
+    height: 46px;
+}
+
+#swapButton{
+    border-radius: 10px;
+    border: 1px solid rgb(102, 102, 102);
+    width: 120px;
+    height: 46px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(73, 171, 91);
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction:row ;
+}
+
+#swapButton:hover{
+    background-color: rgb(73, 171, 91);
+    color: rgb(255, 255, 255);
+    transform: scale(1.05);
+    transition: background-color 0.6s, transform 0.2s;
+}
+
+#main{
+    margin-top: 260px;
+    width: 900px;
+    height: 400px;
+    padding-top: 94px;
+}
+
+.content-wrapper{
+    margin-top: 20px;
+    width: 800px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#background-video {
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  }
+
+  .main-title{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    color: #ED3835;
+    border-radius: 10px;
+    border: 1px solid rgb(102, 102, 102);
+    background-color: aliceblue;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    display: block;
+  }
+  .main-title:hover{
+    background-color: #ED3835;
+    color: aliceblue;
+    transform: scale(1.05);
+    transition: background-color 0.6s, transform 0.2s;
+  }
+  
+
+#muteButton, #replay, #stopButton, #wakeUp{
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 10 14px 16px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.6s, transform 0.2s;
+    padding-top: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+
+#muteButton:hover, #replay:hover, #stopButton:hover, #wakeUp:hover{
+    background-color: #d54839;
+    transform: scale(1.05);
+}
+
+
+#muteButton, #replay:focus {
+    outline: none;
+}
+
+/* RESPONSIVE */
+
+/* responsive.css */
+
+/* Mobil cihazlarda genel stil düzenlemeleri */
+@media (max-width: 767px) {
+    /* Container genişliğini ayarla */
+    #container {
+        padding: 20px;
+    }
+
+    /* Başlık boyutunu küçült */
+    .main-title {
+        font-size: 18px;
+    }
+
+    /* Input ve select alanlarını sırala */
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Butonları alt alta sırala */
+    .content-wrapper button {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 1040px){
+    #main{
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 1024px){
+    #main{
+        margin-top: 10px;
+        width: auto;
+        height: auto;
+        padding-top: 1px;
+    }
+}
+
+@media (min-width: 375px){
+    #main{
+        margin-top: 10px;
+        width: auto;
+        height: auto;
+        padding-top: 1px;
+    }
+}

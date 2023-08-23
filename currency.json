@@ -1,0 +1,9 @@
+{
+    "currency": [
+      "USD", "CAD", "TRY", "EUR", "ZAR", "THB", "SGD", "SEK", "RUB", "RON",
+      "PLN", "PHP", "NZD", "NOK", "MYR", "MXN", "KRW", "JPY", "ISK", "INR",
+      "ILS", "IDR", "HUF", "HRK", "HKD", "DKK", "CZK", "CNY", "CHF", "BRL",
+      "BGN", "AUD"
+    ]
+  }
+  

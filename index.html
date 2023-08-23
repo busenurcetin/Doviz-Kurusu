@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Döviz Kurusu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="main">
+            <div class="header-wrapper">
+                <h4 class="main-title" id="mainTitle">Döviz Kuru Çevirici</h4>
+            </div>
+            <div class="content-wrapper">
+                <input id="amount" type="number" placeholder="Miktar" />
+                <select id="firstCurrencyOption">
+                </select>
+                <i class="fa-solid fa-arrow-right"></i>
+                <select id="secondCurrencyOption">
+                </select>
+                <input type="number" id="result" readonly placeholder="Sonuç"/>
+                <br>
+                <button id="swapButton">Değiştir  <i class="fa fa-exchange" aria-hidden="true"></i></button>
+            </div>
+            <span>Copyright - Buse Nur Çetin</span>
+        </div>
+        <div id="video-container">
+            <video id="background-video" class="video" src="video/reality.mp4" autoplay ></video>
+        </div>
+        <button id="replay">  Durdur</button>
+        <button id="stopButton">  Yeniden Oynat</button>
+    </div>
+
+    <button id="reality"> GERÇEKLİĞE UYAN !</button>
+    <script src="currency.js"> </script>
+    <script src="main.js"></script>
+</body>
+</html>
