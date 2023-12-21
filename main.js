@@ -66,6 +66,7 @@ container.addEventListener("click", () => {
   isVideoPlaying = !isVideoPlaying;
 });
 
+
 backgroundVideo.addEventListener("ended", () => {
   backgroundVideo.currentTime = 0;
   backgroundVideo.play();
